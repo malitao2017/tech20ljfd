@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="j2save.po.InspectionRoute" table="inspection_route">
+		<id name="rid" type="java.lang.String" column="r_id">
+			<!-- generator 用来指定主键的生成方式 -->
+			<!-- 要使用这种方式，mysql和oracle都支持，是根据方言配置<property name="dialect">来判断的 -->
+<!-- 			<generator class="native"> -->
+<!-- 				<param name="sequence">user_seq</param> -->
+<!-- 			</generator> -->
+		</id>
+		<property name="rname" type="java.lang.String" column="r_name"></property>
+		<property name="stationName" type="java.lang.String" column="station_Name"></property>
+		<property name="orderNum" type="integer" column="order_Num"></property>
+		<property name="ptitleId" type="java.lang.String" column="r_parentid"></property>
+<!-- 		<property name="name" type="java.lang.String" column="t_name"></property> -->
+<!-- 		<property name="name" type="java.lang.String" column="t_name"></property> -->
+<!-- 		<property name="name" type="java.lang.String" column="t_name"></property> -->
+<!-- 		<property name="name" type="java.lang.String" column="t_name"></property> -->
+	</class>
+</hibernate-mapping>
+
