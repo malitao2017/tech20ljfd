@@ -19,5 +19,6 @@
 	<classpathentry kind="lib" path="lib-hibernate/jta.jar"/>
 	<classpathentry kind="lib" path="lib-hibernate/junit-4.4.jar"/>
 	<classpathentry kind="lib" path="lib-hibernate/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="j4password/commons-lang3-3.3.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
